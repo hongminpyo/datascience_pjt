@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+script.
+  //window.onload = test();
+  function test() {
+    location.href = "/upbitapi";
+  }
+
+  function csv() {
+    location.href = "/csv";
+  }
+
+  function getToken() {
+    location.href = "/getToken";
+  }
+
+  function aggregate() {
+    location.href = "/aggregate";
+  }

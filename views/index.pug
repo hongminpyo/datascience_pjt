@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  button(type="button",target="_blank", onclick="test()") daily price
+  button(type="button",target="_blank", onclick="csv()") csv
+  button(type="button",target="_blank", onclick="getToken()") token trade
+  button(type="button",target="_blank", onclick="aggregate()") Aggregate
