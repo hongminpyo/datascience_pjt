@@ -21,10 +21,6 @@ function getFormatDate(date){
 
 exports.getInfo = (req,res) => {
 
-    //let date = new Date(1490028077*1000);
-    //console.log(date.getFullYear());
-    //console.log(date.getMonth());
-    //console.log(date.getDate());
     let ether_apikey = 'S4WI1QP9NT6PJS7APV98ZH4V2GVD6E5GSD';
     //let contractAddr = '0xb5a5f22694352c15b00323844ad545abb2b11028'; // icon
     //let contractAddr = '0xd26114cd6EE289AccF82350c8d8487fedB8A0C07'; // omg

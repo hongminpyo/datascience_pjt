@@ -38,7 +38,7 @@ exports.getInfo = (req,res) => {
 
            agg_data.save(function (err) {
                if (err)
-                   console.log('err == ', err);;
+                   console.log('err == ', err);
                // saved!
            });
        }

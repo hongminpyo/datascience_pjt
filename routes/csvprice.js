@@ -7,6 +7,7 @@ const csv_price_schema = new Schema({
     symbol : 'string',
     date : 'date',
     cur_price : 'number',
+    trade_quantity :  'number',
     updown_rate : 'number'
 });
 
